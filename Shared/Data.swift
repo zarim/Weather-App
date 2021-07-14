@@ -102,9 +102,7 @@ class Api {
                             completion(weather)
                         }
                         
-                    } catch {
-                        return
-                    }
+                    } catch { return }
                     
                 } else { return }
             }.resume()
